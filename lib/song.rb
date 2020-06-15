@@ -7,7 +7,7 @@ class Song
    @artist=artist
    @genre=genre
    @@count += 1
-   @@artists=[artist,name]
+   @@artists=["artist"]
    @@genre=["genre"]
  end 
  
