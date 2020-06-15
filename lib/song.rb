@@ -11,7 +11,8 @@ class Song
    @@genre=[]
  end 
  
- def artists
+ def artists=(artists)
+   @@artists
    
  
    
