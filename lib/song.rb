@@ -15,7 +15,7 @@ class Song
 
     def artists=(artists)
    @@artists=artists
-   @@artists[] << artists.unique?
+   @@artists[] << arti
  end
  
 end
