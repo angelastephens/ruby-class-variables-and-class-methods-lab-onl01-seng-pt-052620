@@ -15,11 +15,6 @@ class Song
    @count=count
  end 
  
- 
- def genres=(genres)
-   @generes=genres
-   genres=[] << genres
- end
    
 end
 
