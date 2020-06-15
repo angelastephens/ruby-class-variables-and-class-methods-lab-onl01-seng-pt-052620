@@ -7,12 +7,12 @@ class Song
    @artist=artist
    @genre=genre
    @@count += 1
-   @@artists
+   @@artists=[]
    @@genre=[]
  end 
  
  def artists=(artists)
-   @@artists=artists[]
+   @@artists=artists
    
  end
    
