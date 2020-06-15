@@ -13,9 +13,7 @@ class Song
    @@count += 1
  end 
 
-    def artists=(artists)
-   @@artists=artists
-   @@artists[] << arti
+    def 
  end
  
 end
