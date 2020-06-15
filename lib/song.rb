@@ -11,7 +11,10 @@ class Song
    @@genre = []
  end 
 
-   
+    def artists=(artists)
+   @@artists=artists
+   artists.unique?
+ end
  
 end
 
