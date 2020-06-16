@@ -31,8 +31,8 @@ class Song
   @@genres.each do |genre|
   if new_hash.has_key?(genre)
     @@genres =counter +=1
-  else
-    new_hash
+  elsif
+    new_hash << genre
   end
 end
 end
