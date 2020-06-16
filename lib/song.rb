@@ -34,6 +34,7 @@ class Song
   else
     false
   end
+end
 
 end
 
