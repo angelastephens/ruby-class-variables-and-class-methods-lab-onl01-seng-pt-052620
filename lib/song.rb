@@ -33,6 +33,7 @@ class Song
       @genre_hash[genre] = 1
   end
 end
+end
 @genre_hash
 end
 
