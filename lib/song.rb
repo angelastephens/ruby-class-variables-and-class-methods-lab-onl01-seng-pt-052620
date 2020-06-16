@@ -30,6 +30,7 @@ class Song
   new_hash {}
   @@genres.each do |genre|
   if new_hash.key(genre)
+    
 
 end
 
