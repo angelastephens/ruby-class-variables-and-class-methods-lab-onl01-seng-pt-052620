@@ -30,7 +30,7 @@ class Song
   @new_hash={}
   @@genres.each do |genre|
   if @new_hash[genre] +=1
-  elsif
+  else
     @new_hash[genre] = 1
   end
 end
