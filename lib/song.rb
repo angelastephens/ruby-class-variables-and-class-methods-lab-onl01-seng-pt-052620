@@ -36,6 +36,6 @@ class Song
   end
 end
 end
-
+new_hash
 end
 
