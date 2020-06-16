@@ -40,11 +40,11 @@ end
 
 def self.artist_count
    @artists_hash = {}
-   @@artists.each do |genre|
-     if  @artists_hash[genre]
-       @artists_hash[genre] += 1
+   @@artists.each do |artist|
+     if  @artists_hash[artist]
+       @artists_hash[artist] += 1
      else
-       @artists_hash[genre] = 1
+       @artists_hash[artist] = 1
      end
    end
    @artists_hash
