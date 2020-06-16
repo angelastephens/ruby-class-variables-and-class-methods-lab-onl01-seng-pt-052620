@@ -26,7 +26,7 @@ class Song
   end
 
   def self.genre_count
-    h= hash_new(0)
+    @hash_new={}
     data.each{|v| h[v] +=1}
   end
 
