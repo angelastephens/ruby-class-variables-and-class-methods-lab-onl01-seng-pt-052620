@@ -32,7 +32,7 @@ class Song
   if new_hash.has_key?(genre)
     @@genres =counter +=1
   elsif
-    new_hash[genre] = value
+    new_hash[genre] = 1
   end
 end
 end
