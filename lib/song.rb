@@ -25,6 +25,7 @@ class Song
     @@genres.uniq
   end
 
+  def 
 
 end
 
