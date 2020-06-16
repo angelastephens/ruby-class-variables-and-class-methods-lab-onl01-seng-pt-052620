@@ -35,6 +35,7 @@ class Song
     false
   end
 end
+end
 
 end
 
