@@ -29,8 +29,7 @@ class Song
   counter=1
   new_hash={}
   @@genres.each do |genre|
-  if new_hash.has_key?(genre)
-    @@genres =counter +=1
+  if new_hash[genre] +=1
   elsif
     new_hash[genre] = 1
   end
