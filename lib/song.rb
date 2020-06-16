@@ -32,7 +32,7 @@ class Song
   if new_hash.has_key?(genre)
     @@genres =counter +=1
   elsif
-    new_hash => genre 
+    new_hash = :genre 
   end
 end
 end
