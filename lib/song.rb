@@ -27,11 +27,11 @@ class Song
 
   def self.genre_count
   counter=1
-  new_hash={}
+  @new_hash={}
   @@genres.each do |genre|
-  if new_hash[genre] +=1
+  if @new_hash[genre] +=1
   elsif
-    new_hash[genre] = 1
+    @new_hash[genre] = 1
   end
 end
 end
